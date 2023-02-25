@@ -24,8 +24,8 @@ export  function MainComponent() {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction label="Profile" icon={<RestoreIcon />} onClick={()=> navigate("/tourism/profile")}/>
-        <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
+        <BottomNavigationAction label="Profile" icon={<RestoreIcon />} />
+        <BottomNavigationAction label="Explore" icon={<FavoriteIcon />} onClick={()=> navigate("/tourism/explore")}/>
         <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
       </BottomNavigation>
       
@@ -33,4 +33,4 @@ export  function MainComponent() {
     </>
 
   );
-}
+} 

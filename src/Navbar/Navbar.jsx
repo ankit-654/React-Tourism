@@ -10,7 +10,7 @@ import img1 from '../images/login.avif'
 export  function Navbar() {
   return (
     <>
-    <Box sx={{ flexGrow: 1 }}>
+    <Box>
       <AppBar position="static">
         <Toolbar>
           
