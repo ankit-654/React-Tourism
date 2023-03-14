@@ -26,7 +26,7 @@ export  function MainComponent() {
       >
         <BottomNavigationAction label="Profile" icon={<RestoreIcon />} />
         <BottomNavigationAction label="Explore" icon={<FavoriteIcon />} onClick={()=> navigate("/tourism/explore")}/>
-        <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
+        <BottomNavigationAction label="Destination" icon={<LocationOnIcon />} onClick={() => navigate("/tourism/destiantion")}/>
       </BottomNavigation>
       
     </Box>

@@ -6,22 +6,28 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import './ExploreComponent.css'
+import {SiChinaeasternairlines,SiCodeproject} from "react-icons/si"
 export default function Explore() {
   return (
       <>
+      <div style={{textAlign:"center",padding:"5px"}}>
+      <h2  className="heading1"><SiCodeproject/> enjoy your vacation with us  </h2>
+       {/* <h3><SiChinaeasternairlines/></h3> */}
+      </div>
       <div className='card-box'>
        <div className='card-resp-center'>
        <div className='card-item'>
         <Card className='shadow'>
       <CardMedia
-        sx={{ height: 140 }}
+      className='card-img-hover'
+        sx={{ height: 170}}
         image='/assets/hill.jpg'
         title="green iguana"
       />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
-        Hill Areas
-        <hr/>
+        <b>Mountains</b>
+        {/* <hr/> */}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Your bags are packed. Your out-of-office email reply is all set.
@@ -36,16 +42,17 @@ export default function Explore() {
     </div>
     <div className='card-resp-center'>
        <div className='card-item'>
-        <Card className='shadow'>
+      <Card className='shadow'>
       <CardMedia
-        sx={{ height: 140 }}
+         className='card-img-hover'
+        sx={{ height: 170 }}
         image='/assets/sea-and-beach.jpg'
         title="green iguana"
       />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
-        Sea and Beach
-        <hr/>
+        <b>Sea and Beach</b>
+        {/* <hr/> */}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Your bags are packed. Your out-of-office email reply is all set.
@@ -62,14 +69,15 @@ export default function Explore() {
        <div className='card-item'>
         <Card className='shadow'>
       <CardMedia
-        sx={{ height: 140 }}
+         className='card-img-hover'
+        sx={{ height: 170 }}
         image='/assets/forest.jpg'
         title="green iguana"
       />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
-        Forest and Island
-        <hr/>
+        <b>Island</b>
+        {/* <hr/> */}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Your bags are packed. Your out-of-office email reply is all set.
@@ -86,14 +94,15 @@ export default function Explore() {
        <div className='card-item'>
         <Card className='shadow'>
       <CardMedia
-        sx={{ height: 140 }}
+       className='card-img-hover'
+        sx={{ height: 170 }}
         image='/assets/forts.jpg'
         title="green iguana"
       />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
-        Forts and Palace
-        <hr/>
+        <b>Forts and Palace</b>
+        {/* <hr/> */}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Your bags are packed. Your out-of-office email reply is all set.

@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import { Navbar } from '../Navbar/Navbar'
 import './Login.css'
 import { Axios } from 'axios'
-import loginimg from '../images/login.avif'
+import img1 from '../assets/login.png'
 import { useNavigate } from 'react-router-dom';
 function Login() {
     const txtpassword=useRef();
@@ -22,7 +22,7 @@ const Submit=() => {
     {/* <Navbar/> */}
    <div className='login-box'>
    <div className='parent'>
-    <img className='image' src='/assets/login.png'/>
+    <img className='image' src={img1}/>
    </div>
    <div className='inputbox m-4 shadow text-center'>
    <div className='submain text-center'>

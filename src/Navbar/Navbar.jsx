@@ -5,17 +5,17 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-// import './Login.css'
-import img1 from '../images/login.avif'
+import './Navbar.css'
+// import img1 from '../images/login.avif'
 export  function Navbar() {
   return (
     <>
     <Box>
-      <AppBar position="static">
+      <AppBar position="static" sx={{backgroundColor: "transparent"}}>
         <Toolbar>
           
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-           Tourism
+          <Typography component="div" sx={{ flexGrow: 1 }}>
+           <h6 className="tourism-app-font">Tourism</h6>
           </Typography>
         </Toolbar>
        
