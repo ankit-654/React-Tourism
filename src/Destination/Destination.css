@@ -30,7 +30,7 @@ display: inline-block;
     text-align: center;
     color: rgb(4, 68, 72);
     font-size: 35px;
-    font-family: "Brush Script MT", cursive
+    font-family: "Brush Script MT", cursive;
 }
 .overflow{
     overflow: hidden;
