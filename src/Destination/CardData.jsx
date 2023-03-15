@@ -1,5 +1,5 @@
 
-import forest from "../assets/forest.jpg"
+import forest from "../assets/cardimg.jpg"
 const CardData =  [
     {
         img:forest,

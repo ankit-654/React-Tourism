@@ -24,7 +24,7 @@ export  function MainComponent() {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction label="Profile" icon={<RestoreIcon />} />
+        {/* <BottomNavigationAction label="Profile" icon={<RestoreIcon />} /> */}
         <BottomNavigationAction label="Explore" icon={<FavoriteIcon />} onClick={()=> navigate("/tourism/explore")}/>
         <BottomNavigationAction label="Destination" icon={<LocationOnIcon />} onClick={() => navigate("/tourism/destiantion")}/>
       </BottomNavigation>

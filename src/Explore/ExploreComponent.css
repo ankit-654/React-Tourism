@@ -6,7 +6,7 @@ body{
     background-size: cover; 
     background-repeat: no-repeat;
   }
-  .card-resp-center{
+  /* .card-resp-center{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,6 @@ body{
         display: grid;
         grid-template-columns: auto auto;
         width:100%;
-        /* margin-top: 10px; */
     }
     .card-item{
         margin: 20px;
@@ -76,7 +75,6 @@ body{
         grid-template-columns: auto;
         width:100%;
         height: 100%;
-        /* margin: 20px; */
     }
     .card-item{
         margin: 20px;
@@ -97,4 +95,79 @@ body{
         font-size: 30px;
         font-family: "Brush Script MT", cursive
     }
+} */
+.resp-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
 }
+
+.main-container{
+    margin: 15px;
+    /* position: absolute; */
+    background-image: url(../assets/background.jpg);
+    /* opacity: 0.8; */
+    background-size: 300px 220px;
+    height: 220px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.thecard{
+    margin: 20px;
+    /* position: absolute; */
+    height: 200px;
+    width: 200px;
+    /* background-color: rgb(4, 68, 72); */
+    transform-style: preserve-3d;
+    transition: 0.5s ease;
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+
+.front-side{
+    margin: 5px;
+position: absolute;
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+background-color: none;
+color: black;
+}
+.front-side Button{
+    text-align: center;
+}
+.front-side h2{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "Brush Script MT", cursive;
+    text-align: center;
+    color: white;
+}
+.back-side{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    /* background-color: rgb(241, 245, 245); */
+    border-radius: 20px;
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    image-orientation: flip;
+    color: black;
+    transform: rotateY(180deg);
+    }
+
+.back-side h6{
+    margin-top: 50px;
+    font-size: 22px;
+    color: rgb(251, 251, 251);
+    font-family: "Brush Script MT", cursive;
+}
+    

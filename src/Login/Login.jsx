@@ -12,7 +12,7 @@ const Submit=() => {
     var username=txtusername.current.value;
     var password=txtpassword.current.value;
     if(username=="ankit" && password=="ankit"){
-       navigate("/tourism")
+       navigate("/tourism/explore")
     }
 }
 

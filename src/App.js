@@ -4,6 +4,7 @@ import { MainComponent } from "./MainComponent";
 import Login from "./Login/Login";
 import Explore from "./Explore/ExploreComponent";
 import Destination from "./Destination/ShowDestination";
+import { ExploreCard } from "./Explore/ExploreCard";
 export default function App(){
   return(
     <>
@@ -11,7 +12,7 @@ export default function App(){
         <Routes>
           <Route path="/" element={<Login/>}/>
           <Route path="/tourism" element={<MainComponent/>}>
-               <Route path="explore" element={<Explore/>}/>
+               <Route path="explore" element={<ExploreCard/>}/>
                <Route path="destiantion" element={<Destination/>}  />
           </Route>
 

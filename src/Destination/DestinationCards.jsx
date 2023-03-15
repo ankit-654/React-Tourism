@@ -4,7 +4,7 @@ import { useState } from "react"
 import img from "../assets/forest.jpg"
  import './Destination.css'
  const DestinationCard = (props) => {
-    const [details,setDetails]=useState([]);
+    // const [details,setDetails]=useState([]);
     return (
         <>
         {props.details.map ( (value, index) => (
